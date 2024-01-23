@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+.firstBackground{
+
+    background-color: rgba(45, 142, 153, 1);
+    padding: 40px;
+    padding-bottom: 25px;
+    color: white;
+
+}
+#text{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#text2{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#colorName{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.new-colors{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    background-color: white;
+    border-color: white;
+    color: rgba(45, 142, 153, 1);
+    cursor: pointer;
+
+}
+
+.secondBackground{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#color-buttons-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.btn {                  /*dla jednego przycisku  */
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    
+    
+}
+
